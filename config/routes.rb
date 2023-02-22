@@ -27,9 +27,9 @@ Rails.application.routes.draw do
   get("/zodiacs/libra", { :controller => "air", :action => "scales" })
   get("/zodiacs/aquarius", { :controller => "air", :action => "waterbearer" })
   
-  get("/zodiacs/cancer " { :controller => "Water" :action => "crab" })
-  # get("/zodiac/ scorpio", { :controller => "Water", :action => "scorpion" })
-  # get("/zodiacs/pisces", { :controller => "water", :action => "fish " })
+  get("/zodiacs/cancer", { :controller => "waters", :action => "crab" })
+  get("/zodiacs/scorpio", { :controller => "waters", :action => "scorpion" })
+  get("/zodiacs/pisces", { :controller => "waters", :action => "fish" })
 
   # PART 3: MORE R→C→A→V PRACTICE
   # ==========================
